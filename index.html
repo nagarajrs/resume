@@ -8,39 +8,42 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <aside class="sidebar">
             <div class="profile">
                 <img src="profile.jpg" alt="Your Name" class="profile-img">
-                <div class="profile-text">
-                    <h1>Your Name</h1>
-                    <p>Your Job Title or Tagline</p>
-                </div>
+                <h1>Your Name</h1>
+                <p>Your Tagline</p>
             </div>
-        </header>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-        <section>
-            <div class="section-title">About Me</div>
-            <div class="section-content">
+        <main class="main-content">
+            <section id="about">
+                <h2>About Me</h2>
                 <p>Write a brief introduction about yourself here. Mention your background, career goals, and what makes you unique.</p>
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <div class="section-title">Skills</div>
-            <div class="section-content">
+            <section id="skills">
+                <h2>Skills</h2>
                 <ul class="skills-list">
                     <li><span class="skill-name">Skill #1</span><div class="skill-bar" style="width: 80%;"></div></li>
                     <li><span class="skill-name">Skill #2</span><div class="skill-bar" style="width: 70%;"></div></li>
                     <li><span class="skill-name">Skill #3</span><div class="skill-bar" style="width: 90%;"></div></li>
                 </ul>
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <div class="section-title">Experience</div>
-            <div class="section-content">
+            <section id="experience">
+                <h2>Experience</h2>
                 <div class="experience-item">
-                    <h2>Job Title - Company Name</h2>
+                    <h3>Job Title - Company Name</h3>
                     <p>Location | Dates of Employment</p>
                     <ul>
                         <li>Responsibility or achievement #1</li>
@@ -49,7 +52,7 @@
                     </ul>
                 </div>
                 <div class="experience-item">
-                    <h2>Job Title - Company Name</h2>
+                    <h3>Job Title - Company Name</h3>
                     <p>Location | Dates of Employment</p>
                     <ul>
                         <li>Responsibility or achievement #1</li>
@@ -57,41 +60,27 @@
                         <li>Responsibility or achievement #3</li>
                     </ul>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <div class="section-title">Projects</div>
-            <div class="section-content">
+            <section id="projects">
+                <h2>Projects</h2>
                 <div class="project-item">
-                    <h2>Project Title</h2>
+                    <h3>Project Title</h3>
                     <p>Description of the project, technologies used, and your role. Include links or images if available.</p>
                 </div>
                 <div class="project-item">
-                    <h2>Project Title</h2>
+                    <h3>Project Title</h3>
                     <p>Description of the project, technologies used, and your role. Include links or images if available.</p>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <div class="section-title">Education</div>
-            <div class="section-content">
-                <h2>Degree - University Name</h2>
-                <p>Location | Graduation Date</p>
-                <p>Relevant coursework or honors.</p>
-            </div>
-        </section>
-
-        <section>
-            <div class="section-title">Certifications</div>
-            <div class="section-content">
-                <h2>Certification Name - Issuing Organization</h2>
-                <p>Issue Date</p>
-                <h2>Certification Name - Issuing Organization</h2>
-                <p>Issue Date</p>
-            </div>
-        </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+                <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+            </section>
+        </main>
     </div>
 </body>
 </html>
