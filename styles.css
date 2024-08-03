@@ -1,25 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #f0f4f7;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
 header {
     display: flex;
     align-items: center;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 3px solid #007bff;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
@@ -34,33 +34,71 @@ header {
     height: 120px;
     border-radius: 50%;
     margin-right: 20px;
-    border: 4px solid #007bff;
+    border: 5px solid #007bff;
+    object-fit: cover;
 }
 
-h1 {
+.profile-text h1 {
     margin: 0;
     color: #007bff;
 }
 
-p {
+.profile-text p {
     margin: 0;
     color: #555;
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .section-title {
     background: #007bff;
     color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 1.2em;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .section-content {
-    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-name {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    color: #555;
+}
+
+.skill-bar {
+    flex-grow: 1;
+    height: 8px;
+    background: #007bff;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.experience-item,
+.project-item {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -69,18 +107,5 @@ ul {
 }
 
 li {
-    margin-bottom: 10px;
-}
-
-.contact-info {
-    margin-bottom: 20px;
-}
-
-.contact-info a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
+    margin-bottom: 8px;
 }
